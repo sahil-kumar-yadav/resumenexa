@@ -1,0 +1,210 @@
+# =====================================
+
+# Python
+
+# =====================================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Python Build
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+
+# Type Checkers
+
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# =====================================
+
+# Environment Variables
+
+# =====================================
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =====================================
+
+# FastAPI / Backend Logs
+
+# =====================================
+
+logs/
+*.log
+
+# =====================================
+
+# Database
+
+# =====================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local dumps
+
+*.sql
+
+# =====================================
+
+# Uploaded Files
+
+# =====================================
+
+uploads/
+temp/
+tmp/
+
+# Resume uploads
+
+resumes/
+generated_reports/
+
+# =====================================
+
+# Docker
+
+# =====================================
+
+docker-compose.override.yml
+
+# =====================================
+
+# Node.js / React
+
+# =====================================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React Build
+
+build/
+dist/
+
+# Vite
+
+.vite/
+
+# Next.js
+
+.next/
+out/
+
+# =====================================
+
+# IDEs
+
+# =====================================
+
+.vscode/
+.idea/
+
+# JetBrains
+
+*.iml
+
+# =====================================
+
+# OS Files
+
+# =====================================
+
+.DS_Store
+Thumbs.db
+
+# =====================================
+
+# Alembic
+
+# =====================================
+
+alembic/versions/*.pyc
+
+# =====================================
+
+# Secrets
+
+# =====================================
+
+secrets/
+credentials.json
+service-account.json
+
+# Gemini/OpenAI Keys
+
+*.pem
+*.key
+
+# =====================================
+
+# Misc
+
+# =====================================
+
+.cache/
+tmp/
+temp/
+
+# =====================================
+
+# Reports & Generated Files
+
+# =====================================
+
+generated/
+exports/
+reports/
+analysis_output/
+
+# =====================================
+
+# Frontend Environment Files
+
+# =====================================
+
+frontend/.env
+frontend/.env.local
+
+# =====================================
+
+# Backend Environment Files
+
+# =====================================
+
+backend/.env
+backend/.env.local
